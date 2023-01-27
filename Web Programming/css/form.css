@@ -1,0 +1,234 @@
+    body{
+    font-family:               'JetBrains Mono',monospace;
+    margin: 0;
+    padding: 0;
+    background-color:        #FFE6D7;
+   /* align-items:               center;
+    justify-content:           center;*/
+    }
+    
+    h1 {
+    text-align: center;
+    }
+      
+    
+    .anacerceve {
+    background-color:        #FFE6D7;
+    border:                    8px solid #EB5800;
+    border-radius:             80px;
+    height:                    1400px;
+    width:                     800px;
+    margin-left:               auto;
+    margin-right:              auto;
+    margin-top:                150px;    
+    display:                   flex;
+    align-items:               center;
+    justify-content:           center;
+    }
+    
+    .anacerceve_ust{
+    display:                   flex;
+    position:                  absolute;
+    font-size:                 200%   ;
+    font-weight:               bolder;
+    color:                   white;
+    border:                    8px solid #EB5800;
+    background-color:        #EB5800;
+    height:                    100px;
+    width:                     800px;
+    border-top-left-radius:    80px ;
+    border-top-right-radius:   80px ;
+    font-style:                normal;
+    text-align:                center;
+    margin-bottom:             1400px       ;
+    padding:                   0%;
+    align-items:               center;
+    justify-content:           center;
+    }
+    
+    #BizeUlasin{
+    
+    /*display:                   flex;     
+    position:                  relative;*/
+   
+    font-size:                 250%;
+    color:                   white;
+    text-align:                center;
+    font-weight:               900;
+    margin:                    auto;
+    }
+    
+    .form{
+    position:                 absolute;                 
+    margin-top:               550px ;
+    margin-bottom:            600px ;
+    margin-left:              960px;
+    margin-right:             960px;
+    color:                  black;
+    text-align:               center;
+    font-size:                120%;
+    font-weight:              900;
+    }
+
+.hr_ad{
+width: 3cm;
+}
+.hr_soyad{
+width: 5cm;
+}
+.hr_mail{
+width: 5cm;
+}
+#hr_sorun_turu{
+width: 7cm;  
+}
+.hr_radiobutton{
+width:    270px;
+}
+.hr_tel{
+    width: 220px;
+}
+.hr_dosya{
+    width: 120px;
+}
+.hr_textarea{
+    width: 300px;
+}
+
+    .IletisimInput{
+    border-radius:            10px;
+    border:                   2px solid #EB5800 ;
+    font-weight:              600;
+    text-align:              center;
+    height:                    28px;
+    width:                     170px;
+    font-size:                  120%;
+    font-weight:                500;
+    }
+    .IletisimInput_Soyad{
+    border-radius:            10px;
+    border:                   2px solid #EB5800 ;
+    font-weight:              600;
+    text-align:                 center;
+    text-transform:         uppercase;
+    height:                    28px;
+    width:                     200px;
+    font-size:                  120%;
+    font-weight:                500;
+    }
+
+    .IletisimInput_Mail{
+    border-radius:            10px;
+    border:                   2px solid #EB5800 ;
+    font-weight:              600;
+    text-align:             center;
+    text-transform:             lowercase;
+    height:                    28px;
+    width:                     300px;
+    font-size:                  110%;
+    font-weight:                470;
+    }
+
+    .select_option{
+    border :                   2px solid #EB5800;
+    border-radius:             10px;
+    font-weight:               600;
+    text-align:                center;
+    height:                    30px;
+    width:                     180px;
+    }
+
+    .optionlar{
+    text-align: center;
+    }
+
+   /* .radiobutonlar{
+        
+    
+    align-items:               center;
+    justify-content:           center;
+    }
+     */
+
+    .numara{
+    border: 2px solid #EB5800;
+    border-radius: 10px;
+    width: 175px;
+    height: 25px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 350;
+    } 
+
+    .dosya{
+    text-align: center;
+    margin-left: 173px;
+    height: 80px;
+    width: 250px;
+    }
+    
+    .mesajAlanıClass{
+    display:                  flex;
+    position:                 absolute;
+    margin-top:               700px;
+    margin-left:              960px;
+    margin-right:             960px;
+    }
+    
+    #mesajAlanıId{
+    font-family:             'JetBrains Mono',monospace;
+    border:                  4px solid #EB5800;
+    border-radius:           15px;
+    position:                relative;
+    margin:                  auto;
+    height:                  250px; 
+    width:                   500px;
+    font-weight:             bolder;
+    text-align:             center;
+    font-size:                  100%;
+    font-weight:                100;
+    overflow-y:                 scroll;
+    resize:                   none;
+    }   
+    
+    #buton{
+    font-family:              'JetBrains Mono',monospace;
+    margin-top:               1250px;
+    margin-left:              960px ;
+    margin-right:             960px;
+    color:                  White;
+    background-color:       #EB5800;
+    width:                    210px;
+    height:                   65px;
+    border-radius:            60px;
+    font-size:                x-large;
+    font-weight:              bolder;
+    position:                 absolute;
+    text-align:               center;
+    border:                   3px solid #EB5800;
+    align-items:              center;
+    justify-content:          center;
+    display: flex;
+    }
+    
+    .butonGonder{
+    font-family:             'JetBrains Mono',monospace;
+    margin:                  auto;
+    padding:                 0;
+    text-align:              center;
+    align-items:             center;
+    justify-content:         center;
+    }
+    
+    #buton:hover{
+    color:                 #EB5800;
+    background-color:      white;
+    font-size:              x-large;
+    font-weight:            bolder;
+    border :                4px solid #EB5800;
+    }
+
+.hidden{
+    display: none;
+}
+
